@@ -202,7 +202,6 @@ class HourlyEmployeeType: EntrantType, HourlyEmployee {
     }
 }
 
-
 // hourly Contractor Employee
 class ContractEmployeeType: HourlyEmployeeType, ContractEmployee {
     override init(name: Name, address: Address) {

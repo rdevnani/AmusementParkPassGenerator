@@ -80,7 +80,7 @@ class ViewController: UIViewController {
         return Generator.generateBadge(entrantKind: kind)
     }
 
-// MARK: Checkings
+// MARK: checkings
     
 // Privilage check
     func scan(_ entrant: Entrant, checkPrivilege accessTo: Reader.Privilege) -> Bool {

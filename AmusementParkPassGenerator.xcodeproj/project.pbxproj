@@ -66,22 +66,14 @@
 				86660EB71F22AE4700D148AB /* ViewController.swift */,
 				868F821F1F25747200BD8DE2 /* AmusementPark.swift */,
 				868F82211F2574B400BD8DE2 /* EntrantModel.swift */,
-				86AF8CE61F26BD6B00531B2C /* Sound */,
 				86660EB91F22AE4700D148AB /* Main.storyboard */,
 				86660EBC1F22AE4700D148AB /* Assets.xcassets */,
+				868F82241F25752E00BD8DE2 /* AccessGranted.wav */,
+				868F82231F25752E00BD8DE2 /* AccessDenied.wav */,
 				86660EBE1F22AE4700D148AB /* LaunchScreen.storyboard */,
 				86660EC11F22AE4700D148AB /* Info.plist */,
 			);
 			path = AmusementParkPassGenerator;
-			sourceTree = "<group>";
-		};
-		86AF8CE61F26BD6B00531B2C /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				868F82241F25752E00BD8DE2 /* AccessGranted.wav */,
-				868F82231F25752E00BD8DE2 /* AccessDenied.wav */,
-			);
-			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

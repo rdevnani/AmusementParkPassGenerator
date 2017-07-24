@@ -123,7 +123,7 @@ class Reader {
             return false
         }
         if entrant.delegate.hasRecentlySwipedForRide() == true {
-            print("Wait time is 5 minutes between 2 rides")
+            print("Wait atleast 5 minutes between 2 rides")
             return false
         } else {
             print("Enjoy")
