@@ -12,6 +12,10 @@
 		86660EBB1F22AE4700D148AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86660EB91F22AE4700D148AB /* Main.storyboard */; };
 		86660EBD1F22AE4700D148AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86660EBC1F22AE4700D148AB /* Assets.xcassets */; };
 		86660EC01F22AE4700D148AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86660EBE1F22AE4700D148AB /* LaunchScreen.storyboard */; };
+		868F82201F25747200BD8DE2 /* AmusementPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F821F1F25747200BD8DE2 /* AmusementPark.swift */; };
+		868F82221F2574B400BD8DE2 /* EntrantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868F82211F2574B400BD8DE2 /* EntrantModel.swift */; };
+		868F82251F25752E00BD8DE2 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = 868F82231F25752E00BD8DE2 /* AccessDenied.wav */; };
+		868F82261F25752E00BD8DE2 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = 868F82241F25752E00BD8DE2 /* AccessGranted.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		86660EBC1F22AE4700D148AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86660EBF1F22AE4700D148AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86660EC11F22AE4700D148AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		868F821F1F25747200BD8DE2 /* AmusementPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmusementPark.swift; sourceTree = "<group>"; };
+		868F82211F2574B400BD8DE2 /* EntrantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrantModel.swift; sourceTree = "<group>"; };
+		868F82231F25752E00BD8DE2 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		868F82241F25752E00BD8DE2 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				86660EB51F22AE4700D148AB /* AppDelegate.swift */,
 				86660EB71F22AE4700D148AB /* ViewController.swift */,
+				868F821F1F25747200BD8DE2 /* AmusementPark.swift */,
+				868F82211F2574B400BD8DE2 /* EntrantModel.swift */,
+				86AF8CE61F26BD6B00531B2C /* Sound */,
 				86660EB91F22AE4700D148AB /* Main.storyboard */,
 				86660EBC1F22AE4700D148AB /* Assets.xcassets */,
 				86660EBE1F22AE4700D148AB /* LaunchScreen.storyboard */,
 				86660EC11F22AE4700D148AB /* Info.plist */,
 			);
 			path = AmusementParkPassGenerator;
+			sourceTree = "<group>";
+		};
+		86AF8CE61F26BD6B00531B2C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				868F82241F25752E00BD8DE2 /* AccessGranted.wav */,
+				868F82231F25752E00BD8DE2 /* AccessDenied.wav */,
+			);
+			name = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86660EC01F22AE4700D148AB /* LaunchScreen.storyboard in Resources */,
+				868F82261F25752E00BD8DE2 /* AccessGranted.wav in Resources */,
 				86660EBD1F22AE4700D148AB /* Assets.xcassets in Resources */,
 				86660EBB1F22AE4700D148AB /* Main.storyboard in Resources */,
+				868F82251F25752E00BD8DE2 /* AccessDenied.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,8 @@
 			files = (
 				86660EB81F22AE4700D148AB /* ViewController.swift in Sources */,
 				86660EB61F22AE4700D148AB /* AppDelegate.swift in Sources */,
+				868F82221F2574B400BD8DE2 /* EntrantModel.swift in Sources */,
+				868F82201F25747200BD8DE2 /* AmusementPark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +326,7 @@
 				86660EC61F22AE4700D148AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
